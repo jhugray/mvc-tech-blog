@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  list-style-type: none;
 }
 
 body, html {
@@ -12,17 +12,17 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #113300;
   font-weight: bold;
   transition: color .1s;
 }
 
 a:hover {
-  color: #3486eb;
+  color: #CCCCCC;
 }
 
 button {
-  background-color: #225ca3;
+  background-color: #4c6346;
   border: 0;
   padding: 1%;
   color: white;
@@ -33,13 +33,13 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
-}
+  background-color: #CCCCCC;
+} 
 
 .post-list {
   margin: 0;
-  padding: 0;
-}
+  padding: 1%;
+} 
 
 textarea, input {
   padding: .5%;
@@ -49,7 +49,7 @@ textarea, input {
 
 textarea:focus, input:focus {
   outline: none;
-  border: 1px solid #3486eb;
+  border: 1px solid #4c6346;
 }
 
 textarea {
@@ -72,18 +72,27 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  background-color: #8bb57f;
 }
 
 header {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 5px solid #113300;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1%;
+  padding: 10px;
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 30px;
+  color: #113300;
+  justify-content: flex-start;
+}
+
+.hero {
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/mvc-hero-image.jpeg");
+  background-size: cover;
 }
 
 main {
@@ -91,22 +100,22 @@ main {
   padding: 2% 4%;
 }
 
-.btn-no-style {
+#logout {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
   text-decoration: none;
-  color: #225ca3;
+  color: #113300;
   font-size: 100%;
   font-weight: bold;
   transition: color .1s;
   margin-left: 16px;
 }
 
-.btn-no-style:hover {
+#logout:hover {
   background: none;
-  color: #3486eb;
+  color: #CCCCCC;
 }
 
 .delete-post-btn {
@@ -117,15 +126,27 @@ main {
   background-color: #ff643d;
 }
 
-.post {
-  margin-bottom: 2%;
-  line-height: 150%;
+.blog-post {
+  margin-bottom: 5%;
+  padding: 1%;
+  border-style: solid;
+  border-color: #113300;
+  border-width: 3px; 
+  border-radius: 10px;
+  background-color: #CCCCCC;
 }
 
-.post .title span {
-  font-style: italic;
-  font-size: 90%;
-  color: #7d7d7d;
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-color: #113300;
+  border-width: 3px; 
+}
+
+.title a, .title p {
+  display: inline-flex;
 }
 
 .edit-link {
@@ -140,30 +161,31 @@ main {
 .comment {
   padding: 1%;
   margin-bottom: 1%;
+  border-radius: 10px;
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #CCCCCC;
 }
 
 .comment .meta {
   font-size: 90%;
   margin-bottom: .5%;
-  opacity: .6;
-}
-
-.new-post-form input {
-  width: 300px;
-}
-
-.edit-post-form {
-  margin-bottom: 5%;
 }
 
 footer {
-  border-top: 1px solid #ccc;
+  border-top: 5px solid #113300;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
-}
+} 
+
+
+
+
+
+
+
+
+

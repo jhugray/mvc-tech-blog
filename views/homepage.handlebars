@@ -1,15 +1,11 @@
-<ul>
+<ol class="post-list">
   {{#each posts as |post|}}
-  <li>
-
-  <a href="/post/{{post.id}}"> {{ post.title }} </a>
-  <p> {{ post.body }} </p>
-  <p>Posted by {{ user.username }} on {{ format_date created_at }}.</p>
-   <div class="meta">
+  <li class="blog-post">
+    {{> post-info post }}
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
-  </div>
-  <br />
-    
   </li>
   {{/each}}
-</ul>
+</ol>
+
+
+ 
