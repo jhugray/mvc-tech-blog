@@ -1,5 +1,4 @@
 <section>
- 
   <h2>Create New Post</h2>
 
   <form>
@@ -20,7 +19,7 @@
   <h2>Your Posts</h2>
     {{#each posts as |post|}}
     <div class="blog-post">
-      <p> {{ post.title }} </p>
+      <h3> {{ post.title }} </h3>
       <p> {{ post.body }} </p>
       <br />
       <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>

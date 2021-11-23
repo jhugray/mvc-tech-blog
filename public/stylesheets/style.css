@@ -154,6 +154,10 @@ main {
   margin: -1.5% 0 2% 0;
 }
 
+.edit-link:hover, .comment-link:hover, .blog-title:hover {
+  color: #8bb57f;
+}
+
 .comment-form {
   margin-bottom: 5%;
 }

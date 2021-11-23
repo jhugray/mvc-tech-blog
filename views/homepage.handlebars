@@ -2,7 +2,7 @@
   {{#each posts as |post|}}
   <li class="blog-post">
     {{> post-info post }}
-    <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+    <a class="comment-link" href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </li>
   {{/each}}
 </ol>
