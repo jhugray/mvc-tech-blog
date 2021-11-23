@@ -22,8 +22,11 @@
 
   A tech blog for sharing all your thoughts and ideas.
   
- 
-  
+ ![mvc](https://user-images.githubusercontent.com/59127869/143130090-1784fc09-ffc6-453b-9800-c896e3ef88e2.png)
+
+ ![mvc2](https://user-images.githubusercontent.com/59127869/143130098-8d404a43-b63a-429e-9b0f-f8225847d216.png)
+
+![mvc3](https://user-images.githubusercontent.com/59127869/143130105-22c5ec5e-e1b9-4347-ac6e-5324eaa59765.png)
 
   ## Contributing
 
